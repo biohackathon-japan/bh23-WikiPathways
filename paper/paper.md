@@ -12,8 +12,8 @@ authors:
   - name: Alexander Pico
     orcid: 0000-0001-5706-2163
     affiliation: 1
-  - name: Next Author
-    orcid: 0000-0000-0000-0000
+  - name: Hiromasa Ono
+    orcid: 0000-0001-8675-963X
     affiliation: 2
   - name: Next Author
     orcid: 0000-0000-0000-0000
@@ -27,7 +27,7 @@ authors:
 affiliations:
   - name: Institute of Data Science and Biotechnology, Gladstone Institutes, UCSF, San Francisco, CA, USA
     index: 1
-  - name: Second Affiliation
+  - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems, kashiwa, Japan
     index: 2
 date: 30 June 2023
 cito-bibliography: paper.bib
@@ -49,15 +49,15 @@ authors_short: First Author \emph{et al.}
   * How to make use of Pathway Figure OCR https://pfocr.wikipathways.org/ (in WikiPathways https://www.wikipathways.org/) extracted from PMC
   * Functional annotation of no-model organisms’ genes in omic scale
 
+
 # Outcomes
 
-
-* Give a lecture on how to use PathVisio, a tool for drawing, editing, and analyzing biological pathways. (pico to all)
-  * In some environments (M1 Mac, Ventura 13.4.1), we could not install it following the existing documentation (especially the Java 8 setup), so we hacked a way to install it in those environments and posted an issue on it’s GitHub repository to have them reflected. (ono)
-* Create (or edit) and publish several pathway diagrams using PathVisio
-  * Representative anthocyanin biosynthetic pathway (WP5391) (Bono)
-  * CBD synthetic pathway (WP5392) (Oishi)
-  * Network map of SARS-CoV-2 signaling pathway (WP5115) (Ono)
+- Give a lecture on how to use [PathVisio](https://pathvisio.org), a tool for drawing, editing, and analyzing biological pathways. (pico to all)
+    - In a particular environment (M1 Mac, Ventura 13.4.1), we could not install it following the [existing documentation](https://pathvisio.org/downloads) (especially the Java 8 setup), so we hacked a way to install it in those environments and [posted an issue](https://github.com/PathVisio/pathvisio/issues/195) on [it's GitHub repository](https://github.com/PathVisio/pathvisio) so that it could be reflected. (ono)
+- Create (or edit) and publish several pathway diagrams using PathVisio
+    - Representative anthocyanin biosynthetic pathway ([WP5391](https://www.wikipathways.org/pathways/WP5391.html)) (Bono)
+    - CBD synthetic pathway ([WP5392](https://www.wikipathways.org/pathways/WP5392.html)) (Oishi)
+    - Network map of SARS-CoV-2 signaling pathway ([WP5115](https://www.wikipathways.org/pathways/WP5115.html)) (Ono)
 
 ![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
