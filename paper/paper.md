@@ -21,8 +21,8 @@ authors:
   - name: Naoya Oishi
     orcid: 0000-0002-7491-4994
     affiliation: 4
-  - name: Next Author
-    orcid: 0000-0000-0000-0000
+  - name: Hidemasa Bono
+    orcid: 0000-0003-4413-0651
     affiliation: 5
 affiliations:
   - name: Institute of Data Science and Biotechnology, Gladstone Institutes, UCSF, San Francisco, CA, USA
@@ -33,6 +33,8 @@ affiliations:
     index: 3
   - name: dogrun. Inc, shizuoka, Japan
     index: 4
+  - name: Genome Editing Innovation Center, Hiroshima University, Higashi-Hiroshima, Japan
+    index: 5
 date: 30 June 2023
 cito-bibliography: paper.bib
 event: BH23JP
