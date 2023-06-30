@@ -50,13 +50,31 @@ authors_short: First Author \emph{et al.}
 ---
 
 # Background
-
-* Expand the pathway analysis environment to non-model organisms where genome and functional annotations are not organized in the central public database
-  * How to make use of Pathway Figure OCR https://pfocr.wikipathways.org/ (in WikiPathways https://www.wikipathways.org/) extracted from PMC
-  * Functional annotation of no-model organisms’ genes in omic scale
+- Despite decades of pathway database and freely available pathway drawing tools, most biologists publish their pathways knowledge as static figures made with PowerPoint. Before the BioHackathon, we identified 103,009 pathway figures in the literature and performed OCR (the [Pathway Figure OCR](https://pfocr.wikipathways.org) project). We extracted human genes, chemicals and disease terms, etc., but we knew that many of the pathways were for plants, microbes and non-model organisms. 
+- So, during BH23, to expand the pathway analysis environment to non-model organisms whose genomic and functional annotations are not organized in a central public database, we sought to expand the number of organism species included in the PFOCR database. Also, with the goal of expanding the use of [WikiPathways](https://www.wikipathways.org)(ref.1), we thought it necessary to create a video tutorial on how to edit pathway data and add new ones.
 
 
 # Outcomes
+
+- Expanded species annotations for the  Pathway Figure OCR database (Table.1).
+    * Table　1. The number of new species added to Pathway Figure OCR database in BH23. 
+
+| Category                    | Number of New added Species | Number of Pathways |
+|-----------------------------|------------------:|------------------:|
+| Plants and Fungi            |             9,780 |             25,615 |
+| Bacteria                    |             7,551 |             13,688 |
+| Invertebrates               |             2,989 |             12,568 |
+| Viruses                     |             1,336 |             10,682 |
+| Vertebrates                 |             1,122 |              9,437 |
+| Mammals                     |              353 |             13,788 |
+| Rodents                     |              162 |             34,766 |
+| Phages                      |              120 |                886 |
+| Environmental samples       |              112 |              2,438 |
+| Primates                    |              107 |             42,314 |
+| Synthetic and Chimeric      |               80 |              1,349 |
+| **TOTAL**                   |            23,734 |            167,871* |
+
+\* Including multi-species pathways 
 
 - Give a lecture on how to use [PathVisio](https://pathvisio.org), a tool for drawing, editing, and analyzing biological pathways. (pico to all)
     - In a particular environment (M1 Mac, Ventura 13.4.1), we could not install it following the [existing documentation](https://pathvisio.org/downloads) (especially the Java 8 setup), so we hacked a way to install it in those environments and [posted an issue](https://github.com/PathVisio/pathvisio/issues/195) on [it's GitHub repository](https://github.com/PathVisio/pathvisio) so that it could be reflected. (ono)
@@ -68,8 +86,10 @@ authors_short: First Author \emph{et al.}
 ![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
 # Future work
-
-In the Python environment, py4cytoscape can be used to convert from DataFrame to Cytoscape format, but it is not possible to further convert from there to WikiPathways format. We believe that the ability to describe a GPML template from a generic description, such as tab-delimited text, would be an efficient pathway rendering method, and we will continue discussions on a conversion tool for this purpose.
+- Spread the usage of WikiPathways, PathVisio & PFOCR so that more people can add and use more types and species of pathway data
+- Make video tutorials (in TogoTV) on how to use, edit & add pathway data with WikiPathways, PathVisio, PFOCR. (ono)
+- Standardize the method for curating pathway figures for each target species from the pfocr database, and  render  pathway diagrams for each target species based on the curated pathway figures.
+- In the Python environment, py4cytoscape can be used to convert from DataFrame to Cytoscape format, but it is not possible to further convert from there to WikiPathways format. We believe that the ability to describe a GPML template from a generic description, such as tab-delimited text, would be an efficient pathway rendering method, and we will continue discussions on a conversion tool for this purpose.
 
 ## Acknowledgements
 
@@ -77,4 +97,4 @@ We would like to thank the fellow participants at BioHackathon 2023 for their co
 
 ## References
 
-1.
+1. Martens M, et al. (2021) WikiPathways: connecting communities. Nucleic Acids Research, Volume 49, Issue D1, 8 January 2021, Pages D613–D621, https://doi.org/10.1093/nar/gkaa1024
