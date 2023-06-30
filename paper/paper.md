@@ -82,6 +82,7 @@ authors_short: First Author \emph{et al.}
     - Representative anthocyanin biosynthetic pathway ([WP5391](https://www.wikipathways.org/pathways/WP5391.html)) (Bono)
     - CBD synthetic pathway ([WP5392](https://www.wikipathways.org/pathways/WP5392.html)) (Oishi)
     - Network map of SARS-CoV-2 signaling pathway ([WP5115](https://www.wikipathways.org/pathways/WP5115.html)) (Ono)
+    - Complement system [(WP2806](https://www.wikipathways.org/pathways/WP2806.html) (Ikeda)
 
 ![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
