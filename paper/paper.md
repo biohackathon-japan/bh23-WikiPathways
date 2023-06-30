@@ -18,8 +18,8 @@ authors:
   - name: Ryo Nozu
     orcid: 0000-0002-1099-3152
     affiliation: 3
-  - name: Next Author
-    orcid: 0000-0000-0000-0000
+  - name: Naoya Oishi
+    orcid: 0000-0002-7491-4994
     affiliation: 4
   - name: Next Author
     orcid: 0000-0000-0000-0000
@@ -31,6 +31,8 @@ affiliations:
     index: 2
   - name: Guraduate School of Integrated Science for Life, Hiroshima University, Higashi-Hiroshima, Japan
     index: 3
+  - name: dogrun. Inc, shizuoka, Japan
+    index: 4
 date: 30 June 2023
 cito-bibliography: paper.bib
 event: BH23JP
