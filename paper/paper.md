@@ -76,7 +76,8 @@ authors_short: First Author \emph{et al.}
 
 \* Including multi-species pathways 
 
-- A specific use case: By applying a lexicon of zebrafish gene names to the annotated pathways, we have made a discovery of 3,200 zebrafish-specific genes that are involved in these pathways for the first time.
+- A specific use case: By applying a lexicon of zebrafish gene names to the annotated pathways, we have made a discovery of 3,200 zebrafish-specific genes that are involved in these pathways for the first time!
+
 
 
 - Give a lecture on how to use [PathVisio](https://pathvisio.org), a tool for drawing, editing, and analyzing biological pathways. (pico to all)
