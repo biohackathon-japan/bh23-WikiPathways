@@ -15,8 +15,8 @@ authors:
   - name: Hiromasa Ono
     orcid: 0000-0001-8675-963X
     affiliation: 2
-  - name: Next Author
-    orcid: 0000-0000-0000-0000
+  - name: Ryo Nozu
+    orcid: 0000-0002-1099-3152
     affiliation: 3
   - name: Next Author
     orcid: 0000-0000-0000-0000
@@ -29,6 +29,8 @@ affiliations:
     index: 1
   - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems, kashiwa, Japan
     index: 2
+  - name: Guraduate School of Integrated Science for Life, Hiroshima University, Higashi-Hiroshima, Japan
+    index: 3
 date: 30 June 2023
 cito-bibliography: paper.bib
 event: BH23JP
