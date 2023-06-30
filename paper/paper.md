@@ -76,6 +76,9 @@ authors_short: First Author \emph{et al.}
 
 \* Including multi-species pathways 
 
+- A specific use case: By applying a lexicon of zebrafish gene names to the annotated pathways, we have made a discovery of 3,200 zebrafish-specific genes that are involved in these pathways for the first time.
+
+
 - Give a lecture on how to use [PathVisio](https://pathvisio.org), a tool for drawing, editing, and analyzing biological pathways. (pico to all)
     - In a particular environment (M1 Mac, Ventura 13.4.1), we could not install it following the [existing documentation](https://pathvisio.org/downloads) (especially the Java 8 setup), so we hacked a way to install it in those environments and [posted an issue](https://github.com/PathVisio/pathvisio/issues/195) on [it's GitHub repository](https://github.com/PathVisio/pathvisio) so that it could be reflected. (ono)
 - Create (or edit) and publish several pathway diagrams using PathVisio
