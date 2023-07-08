@@ -86,7 +86,7 @@ Published pathway figures provide a great starting point for pathway modeling. W
 - Network map of SARS-CoV-2 signaling pathway ([WP5115](https://www.wikipathways.org/pathways/WP5115.html)) (Ono)
 - Complement system [(WP2806](https://www.wikipathways.org/pathways/WP2806.html) (Ikeda)
 
-<img src="https://github.com/biohackathon-japan/bh23-WikiPathways/blob/main/paper/wp5392.png" alt="CBD synthetic pathway (WP5392)" width="600">
+![CBD synthetic pathway (WP5392)]("./wp5392.png")
 
 **Figure 1.** The CBD synthetic pathway authored during the BioHackathon. 
 
