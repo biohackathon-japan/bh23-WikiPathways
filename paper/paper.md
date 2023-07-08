@@ -72,7 +72,7 @@ We made use of the article annotations previously performed by [PubTator](https:
 | Environmental samples       |              112 |              2,438 |
 | Primates                    |              107 |             42,314 |
 | Synthetic and Chimeric      |               80 |              1,349 |
-| **TOTAL**                   |            23,734 |            167,871* |
+| **Totals**                   |            **23,734** |            **167,871**\* |
 
 \* Including multi-species pathways 
 
@@ -86,7 +86,7 @@ Published pathway figures provide a great starting point for pathway modeling. W
 - Network map of SARS-CoV-2 signaling pathway ([WP5115](https://www.wikipathways.org/pathways/WP5115.html)) (Ono)
 - Complement system [(WP2806](https://www.wikipathways.org/pathways/WP2806.html) (Ikeda)
 
-<img src="./wp5392.png" alt="CBD synthetic pathway (WP5392)" width="600">
+<img src="https://github.com/biohackathon-japan/bh23-WikiPathways/blob/main/paper/wp5392.png" alt="CBD synthetic pathway (WP5392)" width="600">
 
 **Figure 1.** The CBD synthetic pathway authored during the BioHackathon. 
 
