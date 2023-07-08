@@ -57,9 +57,9 @@ To expand the pathway analysis environment to non-model organisms whose genomic 
 # Outcomes
 We made use of the article annotations previously performed by [PubTator](https://www.ncbi.nlm.nih.gov/research/pubtator/) [@citesAsDataSource:Wei2019] and made available in a set of tables mapping taxonomy identifiers to PMIDs via [FTP](https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/). Converting PMIDs to PMCIDs via NCBI, were then able to map taxonomy IDs to pathway figures in PFOCR.  NCBI provided a mapping between taxonomy IDs and latin genus-species names for improved human consumption. In total, 23,734 unique species were identified annotating the parent articles of PFOCR pathway figures. The breakdown of species-pathway mappings by taxonomic categories is presented in **Table 1**.
 
-**Table 1.** The number of new species added to Pathway Figure OCR database in BH23. 
+**Table 1.** The number of new species added to Pathway Figure OCR database in BH23. \*Pathway counts reflect multi-species annotations. 
 
-| Category                    | Number of Species | Number of Pathways |
+| Category                    | Number of Species | Number of Pathways\* |
 |-----------------------------|------------------:|------------------:|
 | Plants and Fungi            |             9,780 |             25,615 |
 | Bacteria                    |             7,551 |             13,688 |
@@ -72,9 +72,7 @@ We made use of the article annotations previously performed by [PubTator](https:
 | Environmental samples       |              112 |              2,438 |
 | Primates                    |              107 |             42,314 |
 | Synthetic and Chimeric      |               80 |              1,349 |
-| **Totals**                   |            **23,734** |            **167,871**\* |
-
-\* Including multi-species pathways 
+| **Totals**                   |            **23,734** |            **167,871** | 
 
 Many of the figures were annotated by multiple species, i.e., where dozens of species are mentioned in the article. By manually inspecting multiple cases, it is clear that not all of the article-level species annotations are relevant to each and every figure within a given article. It is also challenging to predict which species or subset of species would be most relevent to a given researcher. For example, one researcher might be interested in *Citrus reticulata* while another is interested in *Citrus unshiu*. An article could be annotated with both of these (along with many other mandarin speceis). The genes in a particular pathway figure in that article could be accurately mapped to any number of species. Is only one correct? Are all of them correct? More work is needed to refine and possibly prioritize species annotations to help researcher find the most relevant pathways to their topic of study.
 
@@ -86,9 +84,7 @@ Published pathway figures provide a great starting point for pathway modeling. W
  * Network map of SARS-CoV-2 signaling pathway ([WP5115](https://www.wikipathways.org/pathways/WP5115.html)) (Ono)
  * Complement system [(WP2806](https://www.wikipathways.org/pathways/WP2806.html) (Ikeda)
 
-![CBD synthetic pathway (WP5392)](./wp5392.png)
-
-**Figure 1.** The CBD synthetic pathway authored during the BioHackathon. 
+![The CBD synthetic pathway authored during the BioHackathon.](./wp5392.png)
 
 # Future work
 More work is required to refine and prioritize the species annotations for published pathway figures in PFOCR. Once the annotations are decided, we can then perform species-specific named entity recognition on the OCR contents to make the pathway database more relevant to researchers of plant, microbial and non-model organisms. Following this work, we would like to continue to promote the modeling of pathway knowledge in useful data formats by spreading the usage of PathVisio and WikiPathways. In particular, we are keen to make video tutorials (in [TogoTV](https://togotv.dbcls.jp/en/welcome.html)) on how to use, edit, add pathway data using these tools and resources. With the goal of curating more pathway models, we will also work on more efficient rendering methods, for example, by generating templates from pathway figure OCR extractinos, or even from generic text, such as tab-delimited format, or standard DataFrames commonly used in R and Python.
